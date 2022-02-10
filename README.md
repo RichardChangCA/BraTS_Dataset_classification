@@ -8,10 +8,12 @@ Only use T1 brain slices
 
 rescale image slice pixel values to range [0,1]
 
+```python
 if sum(all pixel values in one mask slice) > 0:
   label = 1 # has tumor
 else:
   label = 0 # no tumor
+```
 
 Data Usage Agreement citations:
 
