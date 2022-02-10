@@ -2,6 +2,8 @@
 
 Dataset: https://www.med.upenn.edu/cbica/brats2020/data.html
 
+369 brains in total, 300 for training, 35 for validation, 34 for testing
+
 2D image slices training: convert pixel-level brain tumor segmentation to image-level brain tumor binary classification
 
 Only use T1 brain slices
