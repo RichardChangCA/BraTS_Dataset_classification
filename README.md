@@ -2,6 +2,17 @@
 
 Dataset: https://www.med.upenn.edu/cbica/brats2020/data.html
 
+2D image slices training: convert pixel-level brain tumor segmentation to image-level brain tumor binary classification
+
+Only use T1 brain slices
+
+rescale image slice pixel values to range [0,1]
+
+if sum(all pixel values in one mask slice) > 0:
+  label = 1 # has tumor
+else:
+  label = 0 # no tumor
+
 Data Usage Agreement citations:
 
 [1] B. H. Menze, A. Jakab, S. Bauer, J. Kalpathy-Cramer, K. Farahani, J. Kirby, et al. "The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS)", IEEE Transactions on Medical Imaging 34(10), 1993-2024 (2015) DOI: 10.1109/TMI.2014.2377694
