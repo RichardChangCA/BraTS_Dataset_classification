@@ -17,6 +17,27 @@ else:
   label = 0 # no tumor
 ```
 
+Testing performance (tumor is positive class, tumor:normal ~= 1:1):
+
+TP: 2620.0
+
+TN: 2281.0
+
+FP: 660.0
+
+FN: 327.0
+
+precision: 0.7987804634518151
+
+recall: 0.8890396712236284
+
+f_measure: 0.8414468267997854
+
+accuracy: 0.8323709097763092
+
+auc_roc: 0.9338790120417066
+
+
 Data Usage Agreement citations:
 
 [1] B. H. Menze, A. Jakab, S. Bauer, J. Kalpathy-Cramer, K. Farahani, J. Kirby, et al. "The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS)", IEEE Transactions on Medical Imaging 34(10), 1993-2024 (2015) DOI: 10.1109/TMI.2014.2377694
